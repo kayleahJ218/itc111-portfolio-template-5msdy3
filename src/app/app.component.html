@@ -1,9 +1,26 @@
 
-<div><a routerLink="/">Home</a></div>
-<div><a routerLink="biography">Biography</a></div>
-<div><a routerLink="resume">Resume</a></div>
-<div><a routerLink="social-media">Social Media</a></div>
 
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="/">Home</a></li>
+        <li><a routerLink="biography">Biography</a></li>
+        <li><a routerLink="resume">Resume</a></li>
+        <li><a routerLink="social-media">Social Media</a></li>
+        <li><a routerLink="redux-quiz">Quiz</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 
 <!--  I have created a simple CSS box and placed one on each components' HTML file in order give visual indication of the component actually loaded into the proper receiving component.  In this case, the receiving component is the app.component.html -->
